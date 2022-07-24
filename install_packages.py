@@ -5,7 +5,7 @@ import subprocess
 def install(name):
     subprocess.call(['pip', 'install', name])
     
-pkgs = ['opencv-python','PyQt5']
+pkgs = ['opencv-python','PyQt5','requests']
 
 for pkg in pkgs:
     install(pkg)
